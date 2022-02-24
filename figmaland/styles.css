@@ -1,0 +1,96 @@
+.Main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: static;
+  /* padding-top: 220px; */
+  margin-top: 8.75%;
+  /* left: 551px; */
+  width: 672px;
+  height: 160px;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+  font-size: 76px;
+  line-height: 84px;
+}
+.sub-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: static;
+  width: 750px;
+  height: 80px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 28px;
+  color: #ffffff;
+  margin-top: 35px;
+  letter-spacing: 0.5px;
+}
+button.mainbutton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 14px 0px;
+  width: 220px;
+  height: 52px;
+  position: static;
+  margin-top: 4.5%;
+  background: #24a0ed;
+  border-radius: 37px;
+  color: #ffffff;
+}
+#nav-mobile {
+  display: flex;
+  flex-direction: row;
+  width: 450px;
+  height: 48px;
+
+  align-items: center;
+  justify-content: space-between;
+
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 28px;
+
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+
+.nav-wrapper {
+  position: static;
+  width: 1210px;
+  height: 156px;
+  left: 283.5px;
+
+  top: 1px;
+  padding-top: 57.5px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+.brand-logo {
+  padding-top: 49px;
+}
+
+.header-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+
+  position: static;
+  width: 1777px;
+  height: 1042px;
+  left: 0px;
+  top: 0px;
+
+  background-image: url(images/Rectangle9.jpg);
+  background-repeat: no-repeat;
+}
