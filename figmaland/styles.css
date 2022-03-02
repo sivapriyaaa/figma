@@ -1,96 +1,132 @@
-.Main-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: static;
-  /* padding-top: 220px; */
-  margin-top: 8.75%;
-  /* left: 551px; */
-  width: 672px;
-  height: 160px;
-  color: #ffffff;
-  text-align: center;
-  letter-spacing: 1px;
+* {
   font-family: "Roboto", sans-serif;
-  font-size: 76px;
-  line-height: 84px;
-}
-.sub-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: static;
-  width: 750px;
-  height: 80px;
-  text-align: center;
-  font-weight: normal;
-  font-size: 28px;
-  color: #ffffff;
-  margin-top: 35px;
-  letter-spacing: 0.5px;
-}
-button.mainbutton {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 14px 0px;
-  width: 220px;
-  height: 52px;
-  position: static;
-  margin-top: 4.5%;
-  background: #24a0ed;
-  border-radius: 37px;
-  color: #ffffff;
-}
-#nav-mobile {
-  display: flex;
-  flex-direction: row;
-  width: 450px;
-  height: 48px;
-
-  align-items: center;
-  justify-content: space-between;
-
-  font-family: Graphik;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 28px;
-
-  text-align: center;
-  letter-spacing: 0.2px;
 }
 
-.nav-wrapper {
-  position: static;
-  width: 1210px;
-  height: 156px;
-  left: 283.5px;
-
-  top: 1px;
-  padding-top: 57.5px;
-
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin: 0px 0px;
-}
-.brand-logo {
-  padding-top: 49px;
+body {
+  margin: 0;
 }
 
-.header-img {
+.header-with-background {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0px;
+  background-size: contain;
 
   position: static;
-  width: 1777px;
-  height: 1042px;
+  width: 100%;
+  height: 930px;
   left: 0px;
   top: 0px;
 
-  background-image: url(images/Rectangle9.jpg);
+  background-image: url("images/rectangle-9.jpg");
   background-repeat: no-repeat;
+}
+
+nav:nth-child(n) {
+  width: 33.3%;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+
+.links {
+  list-style: none;
+  display: inline-flex;
+  position: absolute;
+  left: 10px;
+  margin-top: 32px;
+}
+
+.links a {
+  margin: 24px;
+  color: #ffffff;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+.brand-logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.brand-logo img {
+  width: 200px;
+}
+
+.social-icons {
+  list-style: none;
+  display: inline-flex;
+  position: absolute;
+  top: 0;
+  right: 24px;
+  margin-top: 16px;
+}
+
+.social-icons li {
+  margin: 24px;
+}
+
+.main-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 84px;
+  /* or 114% */
+
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  /* Light text */
+
+  color: #ffffff;
+
+  margin-top: 240px;
+  max-width: 600px;
+}
+
+.sub-text {
+  font-style: normal;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 40px;
+  /* or 143% */
+
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  /* Light text */
+
+  color: #ffffff;
+  max-width: 600px;
+}
+
+.main-button {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 40px;
+  /* or 143% */
+
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  /* Light text */
+
+  color: #ffffff;
+  background: #2091f9;
+  border-radius: 35px;
+  font-size: 20px;
+  border: none;
+  padding: 8px 24px;
+  font-weight: 100;
+  margin-top: 32px;
 }
